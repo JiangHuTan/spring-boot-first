@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/**/
+    suffix: .html
+  mvc:
+    view:
+      suffix: .html
+  redis:
+    host: 172.20.10.2
